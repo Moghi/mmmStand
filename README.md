@@ -22,3 +22,9 @@ A prism in the form of this triangle and width `w` of the resulting ramp.
 To modify the left and right parts you probably need to modify the length `l` in line 15 where `prism()` is called`:
 - Size for MacBook Pro 13 inch 2015: `200mm`
 - Size for MacBook Pro 16 inch 2019: `240mm`
+
+## Export to STL
+1. Open the `.scad` file
+2. Render it with `F6` or press the button that is shaped like cube with an
+hourglass
+3. Export to STL with `F7` or from the menue File -> Export -> to STL.
