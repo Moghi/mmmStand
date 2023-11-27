@@ -1,7 +1,8 @@
 //################# left stand with brace connector #######################
 //#########################################################################
 
-// picture a triangle ABC with 𝛾 = 90˚ and the hypothenuse c, then a will correspond to height(h) and b to length(l). A prism in the form of this triangle and width w of the resulting ramp:
+// picture a triangle ABC with 𝛾 = 90˚ and the hypothenuse c, then a will correspond to height(h) and b to length(l).
+// A prism in the form of this triangle and width w of the resulting ramp:
 module prism(w, l, h){
   polyhedron(
     points=[[0,0,0], [w,0,0], [w,l,0], [0,l,0], [0,l,h], [w,l,h]],
@@ -11,7 +12,7 @@ module prism(w, l, h){
 // this is the big foot, the laptop will rest on it
 module foot() {
   union(){
-    translate([0,0,5]) prism(30,200,12);
+    translate([0,0,5]) prism(30,240,12);
     cube([30,200,5],false);
   }
 }

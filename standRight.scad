@@ -11,7 +11,7 @@ module prism(w, l, h){
 // this is the big foot, the laptop will rest on it
 module foot() {
   union(){
-    translate([0,0,5]) prism(30,200,12);
+    translate([0,0,5]) prism(30,240,12);
     cube([30,200,5],false);
   }
 }

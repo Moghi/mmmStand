@@ -4,7 +4,7 @@
 
 // suitable for MacBook Pro (Retina, 13-inch, Early 2015)
 //--------------- CHANGE THIS VALUE FOR YOUR COMPUTER ---------------|
-overall_distance_between_pcFoots=260;                              //|
+overall_distance_between_pcFoots=315;                              //|
 //___________________________________________________________________|
 
 // calculating the value needed for translation, assuming standLeft and standRight have w=30mm and the connectors are 7mm each
